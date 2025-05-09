@@ -3,12 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		815193952DCD8FE500C6F407 /* WWIPAddress in Frameworks */ = {isa = PBXBuildFile; productRef = 815193942DCD8FE500C6F407 /* WWIPAddress */; };
 		815193982DCDA21B00C6F407 /* WWIPAddress in Frameworks */ = {isa = PBXBuildFile; productRef = 815193972DCDA21B00C6F407 /* WWIPAddress */; };
+		8151939B2DCDA56000C6F407 /* WWIPAddress in Frameworks */ = {isa = PBXBuildFile; productRef = 8151939A2DCDA56000C6F407 /* WWIPAddress */; };
 		817567FC2CA2C2B400B24577 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817567FB2CA2C2B400B24577 /* AppDelegate.swift */; };
 		817568002CA2C2B400B24577 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817567FF2CA2C2B400B24577 /* ViewController.swift */; };
 		817568032CA2C2B400B24577 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 817568012CA2C2B400B24577 /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8151939B2DCDA56000C6F407 /* WWIPAddress in Frameworks */,
 				815193982DCDA21B00C6F407 /* WWIPAddress in Frameworks */,
 				815193952DCD8FE500C6F407 /* WWIPAddress in Frameworks */,
 			);
@@ -119,6 +121,7 @@
 			packageProductDependencies = (
 				815193942DCD8FE500C6F407 /* WWIPAddress */,
 				815193972DCDA21B00C6F407 /* WWIPAddress */,
+				8151939A2DCDA56000C6F407 /* WWIPAddress */,
 			);
 			productName = Example;
 			productReference = 817567F82CA2C2B400B24577 /* Example.app */;
@@ -149,7 +152,7 @@
 			);
 			mainGroup = 817567EF2CA2C2B400B24577;
 			packageReferences = (
-				815193962DCDA21B00C6F407 /* XCLocalSwiftPackageReference "../../WWIPAddress" */,
+				815193992DCDA56000C6F407 /* XCRemoteSwiftPackageReference "WWIPAddress" */,
 			);
 			productRefGroup = 817567F92CA2C2B400B24577 /* Products */;
 			projectDirPath = "";
@@ -413,12 +416,16 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		815193962DCDA21B00C6F407 /* XCLocalSwiftPackageReference "../../WWIPAddress" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../../WWIPAddress;
+/* Begin XCRemoteSwiftPackageReference section */
+		815193992DCDA56000C6F407 /* XCRemoteSwiftPackageReference "WWIPAddress" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/William-Weng/WWIPAddress";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
 		};
-/* End XCLocalSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		815193942DCD8FE500C6F407 /* WWIPAddress */ = {
@@ -427,6 +434,11 @@
 		};
 		815193972DCDA21B00C6F407 /* WWIPAddress */ = {
 			isa = XCSwiftPackageProductDependency;
+			productName = WWIPAddress;
+		};
+		8151939A2DCDA56000C6F407 /* WWIPAddress */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 815193992DCDA56000C6F407 /* XCRemoteSwiftPackageReference "WWIPAddress" */;
 			productName = WWIPAddress;
 		};
 /* End XCSwiftPackageProductDependency section */

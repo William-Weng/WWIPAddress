@@ -1,6 +1,15 @@
 {
-  "originHash" : "690ba4135ec84b79c7a32034bc72b2a8aef5f8b4e297fc3be848d1707d423dc4",
+  "originHash" : "02cb29773f07d7653a1c15a4895265277e2765fd76d8287dc20ef6648943f27b",
   "pins" : [
+    {
+      "identity" : "wwipaddress",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/William-Weng/WWIPAddress",
+      "state" : {
+        "revision" : "60860501d9d163504de8c1c8b6eb48e1ecb52331",
+        "version" : "1.0.0"
+      }
+    },
     {
       "identity" : "wwnetworking",
       "kind" : "remoteSourceControl",
